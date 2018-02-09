@@ -1,7 +1,7 @@
 #!/bin/bash
 CURRENT_USER=$USER
 DE=docker-engine_17.03.0~ce-0~debian-stretch_amd64.deb
-DC=docker-compose-Linux-x86_64
+# DC=docker-compose-Linux-x86_64
 curl -LO http://apt.dockerproject.org/repo/pool/main/d/docker-engine/${DE}
 sudo dpkg -i ${DE}
 
